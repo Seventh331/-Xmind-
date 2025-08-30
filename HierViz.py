@@ -2,7 +2,7 @@ import csv, chardet, os
 from graphviz import Digraph
 
 CSV_PATH = r"C:\Users\86178\Desktop\企业级次查询 25.06.csv"
-PNG_PATH = os.path.join(os.path.dirname(CSV_PATH), "企业层级_平行.png")
+PNG_PATH = os.path.join(os.path.dirname(CSV_PATH), "企业层级_平行.png") # 可在文件后选择所要更改的图片格式
 
 #  配色
 LEVEL_COLORS = [
